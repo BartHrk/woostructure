@@ -1,0 +1,58 @@
+
+/*
+Theme Name: Modern Store
+Theme URI: https://example.com/modern-store
+Author: Your Name
+Author URI: https://example.com
+Description: A modern and minimal WooCommerce theme for your online store
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: modern-store
+*/
+
+/* Base styles */
+:root {
+  --primary-color: #000000;
+  --secondary-color: #666666;
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --border-color: #e5e5e5;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.site-header {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Navigation */
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Footer */
+.site-footer {
+  background: #f7f7f7;
+  padding: 40px 0;
+  margin-top: 60px;
+}
